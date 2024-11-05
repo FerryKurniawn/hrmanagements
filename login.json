@@ -1,0 +1,26 @@
+[
+  {
+    "email": "ferry@gmail.com",
+    "password": "ferry",
+    "username": "ferry",
+    "role": "admin"
+  },
+  {
+    "email": "dina@gmail.com",
+    "password": "dina",
+    "username": "dina",
+    "role": "employee"
+  },
+  {
+    "email": "fiky@gmail.com",
+    "password": "fiky",
+    "username": "fiky",
+    "role": "employee"
+  },
+  {
+    "email": "gisel@gmail.com",
+    "password": "gisel",
+    "username": "gisel",
+    "role": "employee"
+  }
+]

@@ -5,6 +5,7 @@ import Button from "./Button";
 export default function Home() {
   const navigate = useNavigate();
   const location = useLocation();
+  const username = localStorage.getItem("employee_username");
 
   const handleNavigate = (path) => {
     navigate(path);
@@ -42,7 +43,7 @@ export default function Home() {
       </div>
       <div className="flex text-lg ml-20 mb-10 cursor-pointer">
         <img src="user.png" alt="" width="25" className="mr-2" />
-        <p>karyawan</p>
+        <p>{username}</p>
       </div>
     </div>
   );

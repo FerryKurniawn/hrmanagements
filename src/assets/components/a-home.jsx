@@ -8,6 +8,7 @@ export default function Home() {
   const handleNavigate = (path) => {
     navigate(path);
   };
+  const username = localStorage.getItem("admin_username");
 
   const isActive = (path) => location.pathname === path;
 
@@ -41,7 +42,7 @@ export default function Home() {
       </div>
       <div className="flex text-lg ml-20 mb-10 cursor-pointer">
         <img src="user.png" alt="" width="25" className="mr-2" />
-        <p>admin</p>
+        <p>{username}</p>
       </div>
     </div>
   );
