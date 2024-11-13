@@ -112,7 +112,7 @@ function Login() {
           {error && <p style={{ color: "red" }}>{error}</p>}
           <Button
             type="submit"
-            className="w-full p-3 text-xl font-heading text-white bg-mainAccent shadow-light border border-border rounded-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY transition-transform"
+            className="w-full p-3 text-xl font-heading text-white bg-mainAccent shadow-light border border-border rounded-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY transition-transform flex justify-center"
           >
             Login
           </Button>

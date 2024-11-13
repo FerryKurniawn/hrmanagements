@@ -15,6 +15,14 @@ export default function Home() {
   return (
     <div className="border-border flex flex-col border-4 ml-4 bg-main w-[20%] h-[900px] mt-7 justify-between shadow-light">
       <div className="pt-16 flex justify-center flex-col">
+      <div className="flex flex-row">
+        <img 
+      className="w-[80px] h-[80px] mb-10 ml-8 rounded-full"
+      src="/logo.jpg" alt="" />
+      <h1 className="text-4xl font-bold ml-5 text-center space-x-5 mt-4">SIHR
+      </h1>
+      </div>
+      
         <Button
           onClick={() => handleNavigate("/admindashboard")}
           className={`mb-10 text-center rounded-base shadow-light border font-extrabold text-2xl ml-10 border-border w-60 p-4 ${
